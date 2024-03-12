@@ -33,7 +33,7 @@ export default {
             
             const answer = window.confirm('¿Está seguro que desea salir?')
         
-         
+            if(!answer) return false //false, bloquea la salida
         
         })
 
